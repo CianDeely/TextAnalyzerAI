@@ -1,0 +1,22 @@
+{"inputText":"test","analysisResult":"Sentiment of text determined to be negative"}
+{"inputText":"testk","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"test","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"teste","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"testt","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"flop","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"okay","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"rwa","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"rwar","analysisResult":"Sentiment of text determined to be negative"}
+{"inputText":"test","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"test","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"test","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"flop","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"hella","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"alright","analysisResult":"Sentiment of text determined to be negative"}
+{"inputText":"tettetw","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"Hello, how is your day going?","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"My day is going well","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"Test","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"Go","analysisResult":"Sentiment of text determined to be positive"}
+{"inputText":"As","analysisResult":"Sentiment of text determined to be negative"}
+{"inputText":"rwar","analysisResult":"Sentiment of text determined to be neutral"}
