@@ -20,3 +20,4 @@
 {"inputText":"Go","analysisResult":"Sentiment of text determined to be positive"}
 {"inputText":"As","analysisResult":"Sentiment of text determined to be negative"}
 {"inputText":"rwar","analysisResult":"Sentiment of text determined to be neutral"}
+{"inputText":"test","analysisResult":"Sentiment of text determined to be negative"}
