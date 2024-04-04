@@ -50,14 +50,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a small task management system I built using ASP.Net for the server/API and React.JS for the front end. It is a neat little implementation with some nice advanced features. 
-It allows users to create new tasks, update exisiting tasks and delete tasks entirely.
-Users can set priorities and statuses for tasks. High priority tasks result in the API creating an event to log a .txt file with the details of the high priority file.
-Additionally a log tracks all requests made to the API.
+This is a small React and Node AI chatbot application I built using Express/Node for the server/API and React.JS for the front end. It is a neat little implementation with some nice UI/UX tricks. 
+It allows users to enter text into the chat bot and have the result be returned from the API and slowly type out to mimic an AI chat response
+Users can set their user type from the chevron in the top left corner. The chevron direction changes based on whether the dropdown is open or closed.
+Additionally a log tracks all requests made to the API and the responses.
 
-On the React.JS front end lazy loading is implemented so that tasks are only loaded dynamically as the user scrolls.
-There is also a pie chart visualizing the split between task completion statuses.
-When a user attempts to create a task of high priority or update an existing tasks priority to high a modal pops up to ask the user if they are sure
+Currently it is only returning mock responses from the AI. I will add logic to create genuine AI responses and brush up the front-end UI further as I develop more.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -143,7 +141,7 @@ This is an example of how to list things you need to use the software and how to
 
 Cian Deely - [LinkedIn](https://www.linkedin.com/in/ciandeely) - ciandeely@outlook.com
 
-Project Link: [https://github.com/ciandeely/advanced-task-management-system](https://github.com/ciandeely/textanalyzerai)
+Project Link: [https://github.com/ciandeely/TextAnalyzerAI](https://github.com/ciandeely/textanalyzerai)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
