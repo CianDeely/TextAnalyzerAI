@@ -6,14 +6,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/CianDeely/Advanced-Task-Management-System">
-    <img src="images/logo.jpeg" alt="Logo" width="260" height="300">
+  <a href="https://github.com/CianDeely/TextAnalyzerAI">
+    <img src="images/demo.gif" alt="Logo" width="660" height="500">
   </a>
 
 <h3 align="center">Text Sentiment Analyzer AI</h3>
 
   <p align="center">
-    An interactive task management system that allows users to add, edit, and delete tasks
+    An interactive AI chatbot that allows users to enter in a sentence and the AI returns back the sentiment of the sentence
     <br />
   </p>
 </div>
@@ -66,7 +66,6 @@ When a user attempts to create a task of high priority or update an existing tas
 
 * [![React][React.js]][React-url]
 * [![Node][Node.js]][Node-url]
-* [![.Net][.Net]][.Net-url]
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![HTML5][HTML5]][HTML5-url]
 * [![CSS3][CSS3]][CSS3-url]
@@ -87,53 +86,33 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
-* Visual Studio 2022
-
 * Visual Studio Code
-* SQL Server
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/ciandeely/Advanced-Task-Management-System
+   git clone https://github.com/ciandeely/TextAnalyzerAI
    ```
-2. Open the Advanced-Task-Managemnt-System-UI folder in VS Code (or an equivalent IDE)
+2. Open the TextAnalyzerAI folder in VS Code (or an equivalent IDE)
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Start the React project
+4. Navigate to the front-end folder in your VS terminal
+   ```sh
+   cd front-end
+   ```
+5. Start the React project
    ```js
    npm start
    ```
-5. Open Advanced-Task-Management-System.sln in Visual Studio 2022 (or an equivalent IDE)
-6. Build the project in VS2022
-7. Start debugging the project
-8. To create the database you can execute the "Create-DB.sql" script in SQL Server Management Studio
-    ```js
-   if db_id('tempdb') IS NULL
-     CREATE DATABASE tempdb;
-    
-    GO
-
-    CREATE TABLE tempdb.dbo.MyTasks (
-        Id int NOT NULL IDENTITY(1, 1),
-        Title varchar(50) NOT NULL,
-        Description varchar(MAX),
-        Priority int NOT NULL,
-        Due_Date datetime NOT NULL,
-        Status int NOT NULL,
-        CONSTRAINT MyTasks_pk PRIMARY KEY (id)
-    );
-   ```
-9. Navigate to appsettings.json within the VS2022 project and set your DefaultConnection string as appropriate. Mine is as follows
+6. In a separate terminal open the back-end folder by right clicking the folder and selecting "Open in Integrated Terminal"
+7. Start the Node server in terminal
    ```sh
-    "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost,1433;Database=tempdb;User Id=sa;password=Cytidel2024;Trusted_Connection=false;Encrypt=false;TrustServerCertificate=true;MultipleActiveResultSets=true;"
-    },
-    ```
-10. You can now navigate to http://localhost:3000 and run the application
+   node server.js
+   ```
+8. The React application will now open at http://localhost:3000 and run
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,10 +130,10 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Secure the API with JWT authentication and add a login feature in the React app.
-- [ ] Implement unit tests for both backend and frontend.
-- [ ] Add real-time capabilities: If a task is added or edited in one browser tab, it should
-immediately reflect in another without a page refresh.
+- [ ] Implement actual sentiment analysis instead of mock response.
+- [ ] Change the UI so the "Hey Dani" text slowly backspaces out and the AI response types out where it was.
+- [ ] Change the chat format so it has the user's input with their PFP beside it and the AI response afterwards
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +143,7 @@ immediately reflect in another without a page refresh.
 
 Cian Deely - [LinkedIn](https://www.linkedin.com/in/ciandeely) - ciandeely@outlook.com
 
-Project Link: [https://github.com/ciandeely/advanced-task-management-system](https://github.com/ciandeely/advanced-task-management-system)
+Project Link: [https://github.com/ciandeely/advanced-task-management-system](https://github.com/ciandeely/textanalyzerai)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +155,7 @@ Project Link: [https://github.com/ciandeely/advanced-task-management-system](htt
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ciandeely
-[product-screenshot]: images/demo.gif
+[product-screenshot]: images/logo.jpeg
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Node.js]:  https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
